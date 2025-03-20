@@ -5,7 +5,7 @@ import Technologies from './components/Technologies'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import { CONTACT } from './constants'
-import Contact from './components/contact'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
