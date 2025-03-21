@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
+import project1 from "../assets/projects/portfolio.png";
+import project2 from "../assets/projects/restaurent.png";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
@@ -9,64 +9,59 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2025",
+    role: "Machine Learning Intern",
+    company: "Intrainz.",
+    description: `Developed a fraud detection model using Python and machine learning techniques. Analyzed transaction data to identify fraudulent patterns, improving detection accuracy.`,
+    technologies: ["Python", "Machine Learning", " Data Analysis", "Fraud Detection"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2025",
+    role: "Cybersecurity Trainee",
+    company: "Cisco Networking Academy",
+    description: `Completed foundational cybersecurity training, focusing on threat detection, risk mitigation, and security best practices.`,
+    technologies: ["Cybersecurity", "Network Security", "Threat Analysis"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2024",
+    role: "Front-End Developer",
+    company: "Meta (Coursera Program)",
+    description: `Gained hands-on experience in front-end development, specializing in React, JavaScript, and responsive UI design. Built interactive web applications.`,
+    technologies: ["React", "JavaScript", "HTML", "CSS","Tailwind CSS","Front-End Development"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024",
+    role: "UX Designer",
+    company: "Google (Coursera Program)",
+    description: `Studied UX principles, wireframing, and prototyping. Learned to design user-friendly interfaces based on research and usability testing.`,
+    technologies: ["UX Design", "Wireframing", "Prototyping", "User Research"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Personal Portfolio Website–CPKR",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    "A personal portfolio website showcasing projects, skills, and contact information.",
+    
+    technologies: ["HTML", "CSS", "JSX", "Tailwind CSS", "JS"],
   },
   {
-    title: "Task Management App",
+    title: "Designed & Developed a Restaurant Showcase Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Designed and developed a sleek, responsive website to showcase a restaurant’s menu, mission, and expertise. Built with JSX and Tailwind CSS, the site delivers a modern user experience with a clean, minimalistic design. It serves as an informational platform without online ordering features.",
+    technologies: ["HTML", "JSX", "JavaScript", "Tailwind CSS(Styling)",],
   },
   {
-    title: "Portfolio Website",
+    title: "E-Commerce Website(Just Started-In progress)",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["", "", "", ""],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
